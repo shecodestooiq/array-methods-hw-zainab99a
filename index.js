@@ -1,15 +1,15 @@
 function processAges(ages) {
   //!your solution should be inside the function.
   let doubledAges=[];
-  let adults=[];
-  let ageStrings=[];
+  let adults;
+  let ageStrings;
   
   //1-Use a for loop to iterate over the ages array and double each age. Store the doubled ages in a new array called doubledAges and Print the doubledAges array to the console.
   for (const age of ages) {
     doubledAges.push(age*2);
-    console.log(doubledAges);
   }
-
+  console.log(doubledAges);
+ 
   //2-Use the forEach method to loop through the ages array and print each age to the console.
 ages.forEach(function(age){
 console.log(age);
